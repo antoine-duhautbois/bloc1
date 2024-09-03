@@ -19,4 +19,9 @@
 ##### ?id=123&lang=fr | Son rôle c'est que c'est une chaîne de paramètres envoyés au serveur pour fournir des informations supplémentaires. lang=fr signifie que la page doit se charger en français.
 # 6-Codes Status
 ##### 200 : signifie le succès de la requète | Exemple : 200 OK
-##### 301 et 302 : redirection, respectivement permanente et temporaire |Exemple :
+##### 301 et 302 : redirection, respectivement permanente et temporaire | Exemple : 301 Moved Permanently
+##### 4xx : signifie qu'il y'a une erreur Client | Exemple : 404 Not Found
+##### 500, 502 et 503 :signifie qu'il y'a une erreur Serveur | Exemple : 500 Internal Server Error
+# 8-Installation Apache & configuration
+# 9-CURL
+# 10-Headers
