@@ -1,0 +1,48 @@
+/* Définir la police Google Font */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Fond dégradé */
+    color: #333;
+    height: 100vh; /* Assurer que le fond couvre toute la hauteur */
+}
+
+/* Style des titres */
+h1 {
+    font-size: 2.5rem;
+    color: #fff; /* Texte blanc pour un meilleur contraste */
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #fff; /* Texte blanc pour un meilleur contraste */
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Liste des documents */
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    font-size: 1.2rem;
+    color: #fff; /* Liens blancs */
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
